@@ -1,5 +1,5 @@
 # STAT170AB
-  The google_rating.csv is a sample of the data we crawled from the Google Places API
+  In our project, we are predicting the difference between Yelp's stars and Google's ratings for each individual business
 ## Datasets
   There are three mainly datasets.
   This project uses the [Yelp Open Dataset](https://www.yelp.com/dataset), which includes 5 files:
