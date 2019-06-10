@@ -2,9 +2,19 @@
   The google_rating.csv is a sample of the data we crawled from the Google Places API
 ## Datasets
   There are three mainly datasets.
-  * review.csv: A sample of all the reviews we have.
-  * yelp.csv: A sample of all the Yelp dataset
-  * google.csv: A sample of all the Google dataset
+  This project uses the [Yelp Open Dataset](https://www.yelp.com/dataset), which includes 5 files:
+
+* `business.json`: Contains business data including location data, attributes, and categories.
+* `review.json`: Contains full review text data including the user_id that wrote the review and the business_id the review is written for.
+* `user.json`: User data including the user's friend mapping and all the metadata associated with the user.
+* `checkin.json`: Checkins on a business.
+* `tip.json`: Tips written by a user on a business. Tips are shorter than reviews and tend to convey quick suggestions.
+
+The json files are too large to upload, so we create the sample dataset of them. 
+
+  * review_sample.csv: A sample of all the reviews we have.
+  * yelp_sample.csv: A sample of all the Yelp dataset
+  * google_rating.csv: A sample of all the Google dataset
 
 ## Codes
   We separate all the codes into five ipynb files. They are google_api.ipynb, yelp_clean.ipynb, data_visualization.ipynb, LDA.ipynb and machine_learning.ipynb. 
